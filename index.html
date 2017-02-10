@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>Kendo Test Form</title>
+
+    <link href="https://kendo.cdn.telerik.com/2017.1.118/styles/kendo.common.min.css" rel="stylesheet" />
+    <link href="https://kendo.cdn.telerik.com/2017.1.118/styles/kendo.rtl.min.css" rel="stylesheet" />
+    <link href="https://kendo.cdn.telerik.com/2017.1.118/styles/kendo.metro.min.css" rel="stylesheet" />
+
+    <style>
+
+    ul.main_menu {
+      list-style: none;
+    }
+
+    ul.main_menu>li {
+      display: inline-block;
+      padding: 5px;
+    }
+
+    ul.main_menu>li.active a {
+      display: inline-block;
+      color: red;
+    }
+
+    </style>
+</head>
+
+<body>
+    <div id="application"></div>
+
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2017.1.118/js/jszip.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2017.1.118/js/kendo.all.min.js"></script>
+    <script src="js/core.js"></script>
+    <script>
+    $(document).ready(function() {
+      formTest.init();
+    });
+    </script>
+</body>
+
+</html>
